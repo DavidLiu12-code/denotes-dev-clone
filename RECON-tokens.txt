@@ -1,0 +1,59 @@
+--font-caveat:"Caveat", "Caveat Fallback"
+--font-jetbrains:"JetBrains Mono", "JetBrains Mono Fallback"
+--color-page:#fdfcfc
+--color-card:#f7f7f2
+--color-surface:#f4f4f3
+--color-card-hover:#ededeb
+--color-float:#fff
+--color-track:#e7e7de
+--color-text:#000
+--color-muted:#777169
+--color-faint:#a59f97
+--color-primary:#5b6f00
+--color-primary-hover:#4e5f00
+--color-accent:#b2c248
+--color-chip-soft:#e6ebc8
+--color-chip:#f1f1ef
+--color-tag-pink:#f9d5e5
+--color-tag-yellow:#fde9b8
+--color-tag-purple:#ddd8f5
+--color-dot-red:#ee6a5f
+--color-dot-yellow:#f5bd4f
+--color-dot-green:#61c554
+--color-hairline:#0000000d
+--color-line:#00000014
+--color-outline:#00000024
+--radius-card:24px
+--radius-window:16px
+--radius-pill:999px
+--shadow-soft:0 0 0 .5px #00000021, 0 1px 1px #0000000a, 0 2px 4px #0000000a
+--shadow-ring:0 0 0 .5px #00000021
+--shadow-lift:0 1px 2px #0000000f
+--shadow-soft-hover:0 0 0 .5px #00000029, 0 1px 1px #0000000d, 0 4px 10px #00000012
+--shadow-lift-photo:0 1px 2px #0000000f, 0 6px 20px #141a0a24
+--shadow-lift-flat:0 1px 2px #0000000d, 0 3px 10px #0000000d
+--shadow-lift-over:0 1px 2px #0000000f, 0 4px 14px #00000014
+--radius-window-photo:24px
+--shadow-window-photo:0 0 0 .5px #47432a33, 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a
+--outline-pill:inset 0 0 0 1px #0000001f
+--content-width:1120px
+--reader-edge:24px
+--rail-width:1176px
+--gutter:40px
+--space-module:96px
+--space-heading:48px
+--duration-fast:.15s
+--ease-out:cubic-bezier(.22, 1, .36, 1)
+--font-sans:var(--font-inter), var(--font-noto), "PingFang SC", sans-serif
+--font-latin:var(--font-inter-full), var(--font-noto), sans-serif
+--font-mono:var(--font-jetbrains), var(--font-noto), monospace
+--font-hand:var(--font-caveat), cursive
+--shadow-soft:0 0 0 1px #0001, 0 1px 1px #0000000a, 0 2px 4px #0000000a
+--gutter:24px
+--space-module:72px
+--space-heading:40px
+--reader-edge:16px
+--gutter:16px
+--space-module:56px
+--space-heading:32px
+--radius-card:20px
