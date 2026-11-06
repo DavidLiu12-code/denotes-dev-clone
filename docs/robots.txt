@@ -1,0 +1,11 @@
+User-Agent: *
+Allow: /
+Disallow: /admin
+Disallow: /login
+Disallow: /learn
+Disallow: /welcome
+Disallow: /skill
+Disallow: /group
+Disallow: /references
+
+Sitemap: https://davidliu12-code.github.io/denotes-dev-clone/sitemap.xml

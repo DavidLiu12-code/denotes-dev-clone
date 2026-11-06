@@ -27,29 +27,21 @@ export function AdminApp() {
     setReady(true);
   }, []);
 
-  async function signIn(event: React.FormEvent) {
+  function signIn(event: React.FormEvent) {
     event.preventDefault();
     setError("");
     setPending(true);
-    try {
-      const res = await fetch("/api/admin/auth", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ password }),
-      });
-      const data = (await res.json()) as { ok: boolean };
-      if (!data.ok) {
-        setError("密码不对");
-        return;
-      }
-      setAdminAuthed(true);
-      setAuthed(true);
-      setPassword("");
-    } catch {
-      setError("登录失败，请重试");
-    } finally {
+    // Static GitHub Pages preview: client-side check (default denotes-admin)
+    const expected = "denotes-admin";
+    if (password !== expected) {
+      setError("密码不对");
       setPending(false);
+      return;
     }
+    setAdminAuthed(true);
+    setAuthed(true);
+    setPassword("");
+    setPending(false);
   }
 
   function onAdd(event: React.FormEvent) {
